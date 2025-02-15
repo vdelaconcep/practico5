@@ -43,5 +43,7 @@ p {
 }
 
 .boton {
+    padding: 3%;
+    font-size: 1.2rem;
     text-align: right;
 }
