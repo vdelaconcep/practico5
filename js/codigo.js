@@ -19,16 +19,16 @@ function ejercicioUno() {
 }
 
 function ejercicioDos() {
-    let cantidadDeGatos = Math.floor((Math.random() * 10)+1);
-    let cantidadDePasos = Math.floor((Math.random() * 10)+1); // Idem función 'ejercicioUno()'
+    let cantidadDeGatos = Math.floor((Math.random() * 10)+1),
+        cantidadDePasos = Math.floor((Math.random() * 10) +1); // Idem función 'ejercicioUno()'
     for (let i = 1; i < cantidadDeGatos; i++) {
         console.log(listaDosGatos[0] + listaDosGatos[1].repeat(cantidadDePasos));
     } /* Repite misma cantidad de pasos para cada iteración */
 }
 
 function ejercicioTres() {
-    let cantidadDeGatos = Math.floor((Math.random()*10)+1)
-    let cantidadDePasos = Math.floor((Math.random() * 10) + 1); // Idem función 'ejercicioUno()'
+    let cantidadDeGatos = Math.floor((Math.random()*10)+1),
+        cantidadDePasos = Math.floor((Math.random() * 10) + 1); // Idem función 'ejercicioUno()'
     for (let i = 1; i < cantidadDeGatos; i++) {
         if (i % 2 != 0) {
             console.log(listaTresGatos[0] + listaTresGatos[2].repeat(cantidadDePasos));
